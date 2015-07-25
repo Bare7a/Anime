@@ -1,0 +1,119 @@
+body
+{
+    background-image: url('background.png');
+    font-family: 'Play', sans-serif;
+}
+
+a
+{
+    color: aqua;
+    text-decoration: none;
+}
+
+#wrapper
+{
+    background-color: RGBA(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px 10px 20px;
+    width: 910px;
+}
+
+#wrapper > div
+{
+    background-color: rgba(10, 10, 10, 0.81);
+    border-radius: 15px;
+    border: 2px solid rgba(32, 187, 186, 0.81);
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#wrapper h1
+{
+    color: yellow;
+    font-size: 1.50em;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper h2
+{
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 1em;
+}
+
+#wrapper img
+{
+    border-radius: 7px;
+    height: 400px;
+    padding-top: 6px;
+    width: 260px;
+}
+
+#wrapper li
+{
+    padding: 2px 10px;
+    display:  inline-block;
+    font-size: 1.3em;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+#wrapper ul
+{
+    display: table;
+    background-color: RGBA(0, 0, 0, 0.3);
+    border: 2px solid aqua;
+    border-radius: 20px;
+    list-style-type: none;
+    margin: 5px auto 0;
+    padding: 0;
+}
+
+#wrapper ul :hover
+{
+    background: linear-gradient(#222, #000);
+    border-radius: 20px;
+    box-shadow: 0 0 4px 2px aqua;
+    color:yellow;
+}
+
+#wrapper hr
+{
+    color:aqua;
+    border-style:dashed;
+}
+
+#navbar li
+{
+    padding: 4px 30px;
+    display:  inline-block;
+    border: 0 dotted aqua;
+    font-size: 1.3em;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+#navbar ul
+{
+    display: table;
+    background-color: RGBA(0, 0, 0, 0.3);
+    border-radius: 20px;
+    list-style-type: none;
+    margin: 0 auto 10px;
+    padding: 0;
+}
+
+#navbar ul :hover
+{
+    background: linear-gradient(#222, #000);
+    border-radius: 20px;
+    box-shadow: 0 0 4px 2px aqua;
+    color:yellow;
+}

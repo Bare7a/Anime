@@ -1,0 +1,34 @@
+input
+{
+    background-color: rgba(60, 60, 60, 0.8);
+    border-radius: 10px;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+    margin: 5px;
+    padding: 8px;
+    width: 260px;
+}
+.button
+{
+	width: 30px;
+}
+
+textarea
+{
+    background-color: rgba(60, 60, 60, 0.8);
+    border-radius: 6px;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+    height: 150px;
+    margin: 5px;
+    padding: 8px;
+    width: 350px;
+}
+
+body > #wrapper > #generatorInput, body > #wrapper > #generatorOutput
+{
+    vertical-align: middle;
+    width: 412px;
+}
