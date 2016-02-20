@@ -5,19 +5,21 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="css/favicon.png">
-    <script src="js/video/list.js"></script>
-    <script src="js/video/functions.js"></script>
-	<script src="js/navbar.js"></script>
     <title>Videos</title>
+    <script src="javascript/database/navbarCollection.js"></script>
+    <script src="javascript/database/videoCollection.js"></script>
+    <script src="javascript/models/video.js"></script>
+    <script src="javascript/core/seeders.js"></script>
+    <script src="javascript/core/generators.js"></script>
 </head>
 <body>
 <div id="wrapper">
 
 </div>
+
 <script>
-	navbar();
-    sortAs(1);
-    printList();
+    module.navbarGenerator();
+    module.printVideo(true);
 </script>
 </body>
 </html>

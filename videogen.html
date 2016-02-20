@@ -6,23 +6,24 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 	<link rel="stylesheet" type="text/css" href="css/generator.css"/>
     <link rel="icon" type="image/png" href="css/favicon.png">
-    <script src="js/video/genfunctions.js"></script>
-	<script src="js/navbar.js"></script>
+    <script src="javascript/database/navbarCollection.js"></script>
+    <script src="javascript/core/generators.js"></script>
 </head>
 <body>
 <div id="wrapper">
     <div id="generatorInput">
-        <form method="get" onsubmit="generate(event)">
+        <form method="get">
             <input type="text" required="required" placeholder="Title" id="title"><input class="button" type="button" value=" " /><input class="button" type="button" value=" " />
             <input type="text" required="required" placeholder="Video" id="video"><input class="button" type="button" value=" " /><input class="button" type="button" value=" " />
-			<input type="submit" value="GENERATE"/>
+			<input type="submit" id="generateButton" value="GENERATE"/>
         </form>
     </div>
     <div id="generatorOutput">
         <label><textarea id="output"></textarea></label>
     </div>
     <script>
-	navbar();
+    module.navbarGenerator();
+	module.videoGenerator();
     </script>
 </div>
 </body>
